@@ -1,20 +1,38 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/css/extra.css";
+import "../assets/css/styles.min.css";
+import "../assets/css/Features-Image-images.css";
 
-class Index extends React.Component {
+
+class Index_Final extends React.Component {
   render() {
     return (
       <div>
         <nav
-          className="navbar navbar-dark navbar-expand-md sticky-top py-3"
+          className="navbar navbar-dark navbar-expand-md sticky-top py-3 index"
           id="mainNav"
-          style={{
-            background: "rgb(0,0,0)",
-            marginTop: "-44px",
-            fontSize: "14.5px"
-          }}
         >
           <div className="container">
+            <a className="navbar-brand d-flex align-items-center" href="/">
+              <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                  className="bi bi-bezier"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"
+                  />
+                  <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z" />
+                </svg>
+              </span>
+              <span>EXO INFINITY</span>
+            </a>
             <button
               data-bs-toggle="collapse"
               className="navbar-toggler"
@@ -61,7 +79,7 @@ class Index extends React.Component {
             </div>
           </div>
         </nav>
-        <header className="bg-dark index">
+        <header className="bg-dark index2">
           <div className="container pt-4 pt-xl-5">
             <div className="row pt-5">
               <div className="col-md-8 col-xl-6 text-center text-md-start mx-auto">
@@ -79,43 +97,25 @@ class Index extends React.Component {
                     justifyContent: "flex-end"
                   }}
                 >
-                  <div
-                    style={{
-                      position: "relative",
-                      flex: "0 0 45%",
-                      transform: "translate3d(-15%, 35%, 0)"
-                    }}
-                  />
-                  <div
-                    style={{
-                      position: "relative",
-                      flex: "0 0 45%",
-                      transform: "translate3d(-5%, 20%, 0)"
-                    }}
-                  />
-                  <div
-                    style={{
-                      position: "relative",
-                      flex: "0 0 60%",
-                      transform: "translate3d(0, 0%, 0)"
-                    }}
-                  />
+                  <div className="index3" />
+                  <div className="index4" />
+                  <div className="index5" />
                 </div>
               </div>
             </div>
           </div>
         </header>
-        <section className="py-5 overflow-x-auto index2">
-          <button className="btn btn-primary" type="button index3">
+        <section className="py-5 overflow-x-auto index6">
+          <button className="btn btn-primary index7" type="button">
             Check out the tours
           </button>
         </section>
         <section />
-        <section className="py-5 index4">
+        <section className="py-5 index8">
           <div className="container py-5">
             <div className="row mb-5">
               <div className="col-md-8 col-xl-6 text-center mx-auto">
-                <p className="fw-bold text-success mb-2 index5">Contacts</p>
+                <p className="fw-bold text-success mb-2 index9">Contacts</p>
                 <h2 className="fw-bold">How you can reach us</h2>
               </div>
             </div>
@@ -212,4 +212,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+export default Index_Final;

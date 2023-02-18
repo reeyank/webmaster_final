@@ -4,11 +4,10 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
  
 // We import all the components we need in our app
-// import all of the components
 import About from "./components/About";
 import Alpha from "./components/Alpha";
 import Contact from "./components/Contact";
-import Index from "./components/Index";
+import Index_Final from "./components/Index_Final";
 import Launch from "./components/Launch";
 import Sattelite from "./components/Sattelite";
 import SolarSystem from "./components/SolarSystem";
@@ -21,7 +20,7 @@ const App = () => {
  return (
    <div>
      <Routes>
-       <Route exact path="/" element={<Index />} />
+       <Route exact path="/" element={<Index_Final />} />
        <Route exact path="/alpha" element={<Alpha />} />
        <Route exact path="/contact" element={<Contact />} />
        <Route exact path="/launch" element={<Launch />} />
