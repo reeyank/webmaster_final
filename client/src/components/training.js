@@ -1,6 +1,7 @@
 import React from "react";
+import "../assets/bootstrap/css/bootstrap.min.css";
 
-class training extends React.Component {
+class Training extends React.Component {
   render() {
     return (
       <div>
@@ -9,7 +10,8 @@ class training extends React.Component {
           id="mainNav"
           style={{
             background: "rgb(0,0,0)",
-            marginTop: "-44px"
+            marginTop: "-44px",
+            fontSize: "14.5px"
           }}
         >
           <div className="container">
@@ -49,7 +51,7 @@ class training extends React.Component {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="services.html">
-                    Tours
+                    About Us
                   </a>
                 </li>
                 <li className="nav-item">
@@ -57,7 +59,16 @@ class training extends React.Component {
                     Launch and Safety
                   </a>
                 </li>
-                <li className="nav-item" />
+                <li className="nav-item">
+                  <a className="nav-link" href="projects.html">
+                    Vehicles
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="projects.html">
+                    Training and Recovery
+                  </a>
+                </li>
               </ul>
               <a
                 className="btn btn-primary shadow"
@@ -78,7 +89,12 @@ class training extends React.Component {
           }}
         >
           <div className="container h-100">
-            <div className="row h-100">
+            <div
+              className="row h-100"
+              style={{
+                paddingTop: "20px"
+              }}
+            >
               <div className="col-md-10 col-xl-8 text-center d-flex d-sm-flex d-md-flex justify-content-center align-items-center mx-auto justify-content-md-start align-items-md-center justify-content-xl-center">
                 <div>
                   <h2 className="text-uppercase fw-bold mb-3">
@@ -228,4 +244,4 @@ class training extends React.Component {
   }
 }
 
-export default training;
+export default Training;

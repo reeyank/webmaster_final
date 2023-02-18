@@ -1,6 +1,7 @@
 import React from "react";
+import "../assets/bootstrap/css/bootstrap.min.css";
 
-class vehicles extends React.Component {
+class Vehicles extends React.Component {
   render() {
     return (
       <div>
@@ -10,7 +11,8 @@ class vehicles extends React.Component {
             id="mainNav"
             style={{
               background: "rgb(0,0,0)",
-              marginTop: "-44px"
+              marginTop: "-44px",
+              fontSize: "14.5px"
             }}
           >
             <div className="container">
@@ -50,7 +52,7 @@ class vehicles extends React.Component {
                   </li>
                   <li className="nav-item">
                     <a className="nav-link" href="services.html">
-                      Tours
+                      About Us
                     </a>
                   </li>
                   <li className="nav-item">
@@ -58,7 +60,16 @@ class vehicles extends React.Component {
                       Launch and Safety
                     </a>
                   </li>
-                  <li className="nav-item" />
+                  <li className="nav-item">
+                    <a className="nav-link" href="projects.html">
+                      Vehicles
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="projects.html">
+                      Training and Recovery
+                    </a>
+                  </li>
                 </ul>
                 <a
                   className="btn btn-primary shadow"
@@ -595,4 +606,4 @@ class vehicles extends React.Component {
   }
 }
 
-export default vehicles;
+export default Vehicles;

@@ -1,0 +1,55 @@
+.contact {
+    background: url(&quot;assets/img/nate-rayfield-_WR6tUIAJe8-unsplash.jpg&quot;) center / cover no-repeat;
+}
+
+.contact2 {
+    color: rgb(255,255,255);--bs-body-color: #ffffff;--bs-light: #ffffff;--bs-light-rgb: 255,255,255;
+}
+
+.index {
+    background: url(&quot;assets/img/ivan-diaz-YOy-ek-aBR0-unsplash.jpg&quot;) center / cover no-repeat;height: 600px;margin: 0px;
+}
+
+.index2 {
+    background: url(&quot;assets/img/products/history-in-hd-e5eDHbmHprg-unsplash.jpg&quot;) center / cover no-repeat;height: 700px
+}
+
+.index3 {
+    margin-left: 30px;
+}
+
+.index4 {
+    background: url(&quot;assets/img/alek-kalinowski-Sj_3Jdr19L4-unsplash.jpg&quot;) center / cover no-repeat;
+}
+
+.index5 {
+    --bs-success: #19f5aa;--bs-success-rgb: 25,245,170;
+}
+
+.launch {
+    --bs-body-bg: #000000;--bs-dark: #000000;--bs-dark-rgb: 0,0,0;background: rgba(0,0,0,0);
+}
+
+.launch2 {
+    padding-left: 0px;margin-left: -49px;padding-right: 0px;margin-right: -47px;
+}
+
+.launch3 {
+    background: #000000;border-radius: 0;border-width: 0px;
+}
+
+.launch4 {
+    top: 1rem;right: 1rem;position: absolute;
+}
+
+.launch5 {
+    font-size: -55.248px;
+}
+
+.launch6 {
+    max-width: 900px;background: #000000;
+}
+
+.launch7 {
+    background: #000000;border-radius: 0px;
+}

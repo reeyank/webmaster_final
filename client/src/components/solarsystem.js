@@ -1,6 +1,7 @@
 import React from "react";
+import "../assets/bootstrap/css/bootstrap.min.css";
 
-class solarsystem extends React.Component {
+class SolarSystem extends React.Component {
   render() {
     return (
       <section className="py-4 py-xl-5">
@@ -9,7 +10,8 @@ class solarsystem extends React.Component {
           id="mainNav"
           style={{
             background: "rgb(0,0,0)",
-            marginTop: "-44px"
+            marginTop: "-44px",
+            fontSize: "14.5px"
           }}
         >
           <div className="container">
@@ -49,7 +51,7 @@ class solarsystem extends React.Component {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="services.html">
-                    Tours
+                    About Us
                   </a>
                 </li>
                 <li className="nav-item">
@@ -57,7 +59,16 @@ class solarsystem extends React.Component {
                     Launch and Safety
                   </a>
                 </li>
-                <li className="nav-item" />
+                <li className="nav-item">
+                  <a className="nav-link" href="projects.html">
+                    Vehicles
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="projects.html">
+                    Training and Recovery
+                  </a>
+                </li>
               </ul>
               <a
                 className="btn btn-primary shadow"
@@ -202,4 +213,4 @@ class solarsystem extends React.Component {
   }
 }
 
-export default solarsystem;
+export default SolarSystem;
