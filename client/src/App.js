@@ -4,21 +4,16 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
  
 // We import all the components we need in our app
-import RecordList from "./components/recordList";
-import Create from "./components/create";
-import Edit from "./components/edit";
-import Body from "./components/Body";
-import Pricing from "./components/pricing";
+import Tour from "./components/recordList";
+import Suits from "./component/suits";
  
 const App = () => {
  return (
    <div>
      <Routes>
-       <Route exact path="/" element={<Body />} />
-       <Route path="/edit/:id" element={<Edit />} />
-       <Route path="/create" element={<Create />} />
-       <Route path="/price" element={<Pricing />} />
-       <Route exact path="/record" element={<RecordList />} />
+       <Route exact path="/" element={<Tour />} />
+       <Route exact path="/suits" element={<Suits />} />
+
      </Routes>
    </div>
  );
