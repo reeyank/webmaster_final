@@ -1,10 +1,12 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/css/extra.css";
+import "../assets/css/styles.min.css";
 
 class Launch extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: "var(--bs-black)"}}>
         <nav
           className="navbar navbar-dark navbar-expand-md sticky-top py-3"
           id="mainNav"
@@ -12,7 +14,7 @@ class Launch extends React.Component {
             background: "rgb(0,0,0)"
           }}
         >
-          <div className="container">
+        <div className="container">
             <a className="navbar-brand d-flex align-items-center" href="/">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
                 <svg
@@ -43,42 +45,37 @@ class Launch extends React.Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="services.html">
-                    Tours
+                  <a className="nav-link" href="/about">
+                    About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
-                    Projects
+                  <a className="nav-link" href="/launch">
+                    Launch and Safety
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="pricing.html">
-                    Pricing
+                  <a className="nav-link" href="/vehicles">
+                    Vehicles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contacts.html">
-                    Contacts
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="index-1.html">
-                    Home
+                  <a className="nav-link" href="/training">
+                    Training and Recovery
                   </a>
                 </li>
               </ul>
               <a
                 className="btn btn-primary shadow"
                 role="button"
-                href="signup.html"
+                href="/tours"
               >
-                Sign up
+                Book Now
               </a>
             </div>
           </div>
@@ -278,9 +275,9 @@ class Launch extends React.Component {
                         Before stepping on the surface of the planet, passengers
                         are required to wear one of our specialized space suits.
                       </p>
-                      <button className="btn btn-primary" type="button">
+                      <a className="btn btn-primary" type="button" href="/suits">
                         View Space Suits
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>

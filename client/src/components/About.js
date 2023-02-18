@@ -1,10 +1,12 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/css/extra.css";
+import "../assets/css/styles.min.css";
 
 class About extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: "var(--bs-black)"}}>
         <nav
           className="navbar navbar-dark navbar-expand-md sticky-top py-3"
           id="mainNav"
@@ -14,7 +16,7 @@ class About extends React.Component {
             fontSize: "14.5px"
           }}
         >
-          <div className="container">
+        <div className="container">
             <a className="navbar-brand d-flex align-items-center" href="/">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
                 <svg
@@ -45,27 +47,27 @@ class About extends React.Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="services.html">
+                  <a className="nav-link" href="/about">
                     About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/launch">
                     Launch and Safety
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/vehicles">
                     Vehicles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/training">
                     Training and Recovery
                   </a>
                 </li>
@@ -73,21 +75,17 @@ class About extends React.Component {
               <a
                 className="btn btn-primary shadow"
                 role="button"
-                href="signup.html"
+                href="/tours"
               >
                 Book Now
               </a>
             </div>
-          </div>
+          </div> 
         </nav>
         <header className="bg-dark" />
         <section>
           <div
-            className="container bg-dark py-5"
-            style={{
-              background:
-                'url("assets/img/alek-kalinowski-Sj_3Jdr19L4-unsplash.jpg") center / cover no-repeat, var(--bs-black)'
-            }}
+            className="container bg-dark py-5 about"
           >
             <div className="row">
               <div className="col-md-8 col-xl-6 text-center mx-auto">
@@ -136,9 +134,7 @@ class About extends React.Component {
                         providing them with the necessary skills and knowledge
                         to make the most of their space travel experience.
                       </p>
-                      <button className="btn btn-primary shadow" type="button">
-                        Sign up
-                      </button>
+                        <a className="btn btn-primary shadow" href="/training">Learn More</a>
                     </div>
                   </div>
                 </div>
@@ -173,9 +169,9 @@ class About extends React.Component {
                         response plans, we can ensure a safe and enjoyable trip
                         for their passengers.
                       </p>
-                      <button className="btn btn-primary shadow" type="button">
+                      <a className="btn btn-primary shadow" type="button" href="/launch">
                         Learn more
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -216,9 +212,9 @@ class About extends React.Component {
                         atmosphere. Don't miss out on this unforgettable
                         adventure!
                       </p>
-                      <button className="btn btn-primary shadow" type="button">
-                        Learn more
-                      </button>
+                      <a className="btn btn-primary shadow" type="button" href="/tours">
+                        Book Now
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -257,9 +253,9 @@ class About extends React.Component {
                         perfect souvenirs to show off your trip to family and
                         friends.
                       </p>
-                      <button className="btn btn-primary shadow" type="button">
-                        Learn more
-                      </button>
+                      <a className="btn btn-primary shadow" type="button" href="/tours">
+                        Book Now
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -281,7 +277,7 @@ class About extends React.Component {
                   <strong>What People Say About us</strong>
                 </h2>
                 <p className="text-muted">
-                  No matter the project, our team can handle it. 
+                  No matter the project, our team can handle it.
                 </p>
               </div>
             </div>
@@ -298,12 +294,6 @@ class About extends React.Component {
                     lifetime!
                   </p>
                   <div className="d-flex">
-                    <img
-                      className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                      width={50}
-                      height={50}
-                      src="assets/img/team/avatar2.jpg"
-                    />
                     <div>
                       <p className="fw-bold text-primary mb-0">John Smith</p>
                     </div>
@@ -321,12 +311,6 @@ class About extends React.Component {
                     definitely book another trip with them in the future.
                   </p>
                   <div className="d-flex">
-                    <img
-                      className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                      width={50}
-                      height={50}
-                      src="assets/img/team/avatar4.jpg"
-                    />
                     <div>
                       <p className="fw-bold text-primary mb-0">Bob Bing</p>
                     </div>
@@ -348,12 +332,6 @@ class About extends React.Component {
                     memorabilia."
                   </p>
                   <div className="d-flex">
-                    <img
-                      className="rounded-circle flex-shrink-0 me-3 fit-cover"
-                      width={50}
-                      height={50}
-                      src="assets/img/team/avatar5.jpg"
-                    />
                     <div>
                       <p className="fw-bold text-primary mb-0">Angel Brown</p>
                     </div>

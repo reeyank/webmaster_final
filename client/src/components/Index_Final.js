@@ -13,7 +13,7 @@ class Index_Final extends React.Component {
           className="navbar navbar-dark navbar-expand-md sticky-top py-3 index"
           id="mainNav"
         >
-          <div className="container">
+        <div className="container">
             <a className="navbar-brand d-flex align-items-center" href="/">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
                 <svg
@@ -44,27 +44,27 @@ class Index_Final extends React.Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="services.html">
+                  <a className="nav-link" href="/about">
                     About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/launch">
                     Launch and Safety
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/vehicles">
                     Vehicles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/training">
                     Training and Recovery
                   </a>
                 </li>
@@ -72,12 +72,12 @@ class Index_Final extends React.Component {
               <a
                 className="btn btn-primary shadow"
                 role="button"
-                href="signup.html"
+                href="/tours"
               >
                 Book Now
               </a>
             </div>
-          </div>
+          </div> 
         </nav>
         <header className="bg-dark index2">
           <div className="container pt-4 pt-xl-5">
@@ -107,7 +107,7 @@ class Index_Final extends React.Component {
         </header>
         <section className="py-5 overflow-x-auto index6">
           <button className="btn btn-primary index7" type="button">
-            Check out the tours
+            <a href="/tours" className="btn btn-primary shadow">Check out the tours</a>
           </button>
         </section>
         <section />

@@ -1,5 +1,7 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/css/extra.css";
+import "../assets/css/styles.min.css";
 
 class Tours extends React.Component {
   render() {
@@ -14,7 +16,7 @@ class Tours extends React.Component {
             fontSize: "14.5px"
           }}
         >
-          <div className="container">
+        <div className="container">
             <a className="navbar-brand d-flex align-items-center" href="/">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
                 <svg
@@ -45,27 +47,27 @@ class Tours extends React.Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="services.html">
+                  <a className="nav-link" href="/about">
                     About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/launch">
                     Launch and Safety
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/vehicles">
                     Vehicles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/training">
                     Training and Recovery
                   </a>
                 </li>
@@ -73,19 +75,15 @@ class Tours extends React.Component {
               <a
                 className="btn btn-primary shadow"
                 role="button"
-                href="signup.html"
+                href="/tours"
               >
                 Book Now
               </a>
             </div>
-          </div>
+          </div> 
         </nav>
         <section
-          className="py-5"
-          style={{
-            background:
-              'url("assets/img/DALLE_2023-02-17_14.42.34_-_add_more_space_over_here.png") center / cover no-repeat'
-          }}
+          className="py-5 tour"
         >
           <div className="container py-5">
             <div className="row mb-4 mb-lg-5">
@@ -103,7 +101,7 @@ class Tours extends React.Component {
               <div className="col mb-5">
                 <img
                   className="rounded img-fluid shadow"
-                  src="assets/img/products/istockphoto-482954331-612x612.jpg"
+                  src="../assets/img/products/istockphoto-482954331-612x612.jpg"
                 />
               </div>
               <div
@@ -148,9 +146,9 @@ class Tours extends React.Component {
                     that will expand your understanding of our place in the
                     universe.
                   </p>
-                  <button className="btn btn-primary shadow" type="button">
-                    Book now
-                  </button>
+                  <a className="btn btn-primary shadow" type="button" href="/solarsystem">
+                    Learn More
+                  </a>
                 </div>
               </div>
             </div>
@@ -189,9 +187,9 @@ class Tours extends React.Component {
                     geography, and nature, as it provides a unique and
                     educational experience that will leave a lasting impression.
                   </p>
-                  <button className="btn btn-primary shadow" type="button">
-                    Book Now
-                  </button>
+                  <a className="btn btn-primary shadow" type="button" href="/sattelite">
+                    Learn More
+                  </a>
                 </div>
               </div>
             </div>
@@ -202,12 +200,6 @@ class Tours extends React.Component {
               }}
             >
               <div className="col mb-5">
-                <img
-                  className="rounded img-fluid shadow"
-                  src="assets/img/products/planet-Artist-impression-surface-mass-b-Proxima.webp"
-                  width={426}
-                  height={277}
-                />
               </div>
               <div
                 className="col d-md-flex align-items-md-end align-items-lg-center mb-5"
@@ -218,7 +210,7 @@ class Tours extends React.Component {
                 }}
               >
                 <div>
-                  <h5 className="fw-bold">Centauri Tour</h5>
+                  <h5 className="fw-bold">Alpha Centauri Tour</h5>
                   <p
                     className="text-muted mb-4"
                     style={{
@@ -238,9 +230,9 @@ class Tours extends React.Component {
                     space enthusiasts and anyone who is fascinated by the
                     mysteries of the cosmos.
                   </p>
-                  <button className="btn btn-primary shadow" type="button">
-                    Book Now
-                  </button>
+                  <a className="btn btn-primary shadow" type="button" href="/alpha">
+                    Learn More
+                  </a>
                 </div>
               </div>
             </div>

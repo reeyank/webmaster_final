@@ -1,5 +1,8 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/css/extra.css";
+import "../assets/css/styles.min.css";
+
 
 class Contact extends React.Component {
   render() {
@@ -14,7 +17,7 @@ class Contact extends React.Component {
             fontSize: "14.5px"
           }}
         >
-          <div className="container">
+        <div className="container">
             <a className="navbar-brand d-flex align-items-center" href="/">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
                 <svg
@@ -45,27 +48,27 @@ class Contact extends React.Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="services.html">
+                  <a className="nav-link" href="/about">
                     About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/launch">
                     Launch and Safety
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/vehicles">
                     Vehicles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/training">
                     Training and Recovery
                   </a>
                 </li>
@@ -73,7 +76,7 @@ class Contact extends React.Component {
               <a
                 className="btn btn-primary shadow"
                 role="button"
-                href="signup.html"
+                href="/tours"
               >
                 Book Now
               </a>
@@ -176,12 +179,6 @@ class Contact extends React.Component {
             </div>
           </div>
         </section>
-        <footer
-          className="bg-dark"
-          style={{
-            background: "rgb(0,0,0)"
-          }}
-        />
       </div>
     );
   }

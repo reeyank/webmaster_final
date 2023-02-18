@@ -1,5 +1,5 @@
 .contact {
-    background: url("../../assets/img/nate-rayfield-_WR6tUIAJe8-unsplash.jpg") center / cover no-repeat;
+    background-color: black;
 }
 
 .contact2 {
@@ -68,4 +68,18 @@
 
 .launch7 {
     background: #000000;border-radius: 0px;
+}
+
+.about {
+    background: url("../../assets/img/alek-kalinowski-Sj_3Jdr19L4-unsplash.jpg") center / cover no-repeat; background-color: var(--bs-black);
+}
+
+.tour {
+    background: url("../../assets/img/DALLE_2023-02-17_14.42.34_-_add_more_space_over_here.png") center / cover no-repeat;
+}
+
+.training {
+    background: url("../../assets/img/kenny-eliason-OjxsirfohHU-unsplash.jpg") center / cover no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 0;
 }

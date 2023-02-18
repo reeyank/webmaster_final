@@ -1,10 +1,12 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/css/extra.css";
+import "../assets/css/styles.min.css";
 
 class Suits extends React.Component {
   render() {
     return (
-      <div>
+      <div style={{backgroundColor: "var(--bs-black)"}}>
         <nav
           className="navbar navbar-dark navbar-expand-md sticky-top py-3"
           id="mainNav"
@@ -14,7 +16,7 @@ class Suits extends React.Component {
             fontSize: "14.5px"
           }}
         >
-          <div className="container">
+        <div className="container">
             <a className="navbar-brand d-flex align-items-center" href="/">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
                 <svg
@@ -45,27 +47,27 @@ class Suits extends React.Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="services.html">
+                  <a className="nav-link" href="/about">
                     About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/launch">
                     Launch and Safety
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/vehicles">
                     Vehicles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/training">
                     Training and Recovery
                   </a>
                 </li>
@@ -73,7 +75,7 @@ class Suits extends React.Component {
               <a
                 className="btn btn-primary shadow"
                 role="button"
-                href="signup.html"
+                href="/tours"
               >
                 Book Now
               </a>
@@ -159,11 +161,6 @@ class Suits extends React.Component {
                       explore the surface of different planets.
                     </p>
                   </div>
-                  <img
-                    src="assets/img/image%20(1).png"
-                    width={888}
-                    height={1325}
-                  />
                 </div>
               </div>
             </div>
@@ -221,7 +218,6 @@ class Suits extends React.Component {
                     insulation, making it ideal for extremely cold environments
                     such as Pluto.
                   </p>
-                  <img src="assets/img/image%20(2).png" />
                 </div>
               </div>
             </div>

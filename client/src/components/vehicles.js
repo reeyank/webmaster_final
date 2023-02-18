@@ -1,11 +1,16 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/css/extra.css";
+import "../assets/css/styles.min.css";
+import "../assets/css/Features-Image-icons.css";
+import "../assets/css/Features-Image-images.css";
+
 
 class Vehicles extends React.Component {
   render() {
     return (
       <div>
-        <section className="py-5">
+        <section className="py-5" style={{backgroundColor: "var(--bs-black)"}}>
           <nav
             className="navbar navbar-dark navbar-expand-md sticky-top py-3"
             id="mainNav"
@@ -15,73 +20,73 @@ class Vehicles extends React.Component {
               fontSize: "14.5px"
             }}
           >
-            <div className="container">
-              <a className="navbar-brand d-flex align-items-center" href="/">
-                <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
-                    fill="currentColor"
-                    viewBox="0 0 16 16"
-                    className="bi bi-bezier"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"
-                    />
-                    <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z" />
-                  </svg>
-                </span>
-                <span>EXO INFINITY</span>
-              </a>
-              <button
-                data-bs-toggle="collapse"
-                className="navbar-toggler"
-                data-bs-target="#navcol-1"
-              >
-                <span className="visually-hidden">Toggle navigation</span>
-                <span className="navbar-toggler-icon" />
-              </button>
-              <div className="collapse navbar-collapse" id="navcol-1">
-                <ul className="navbar-nav mx-auto">
-                  <li className="nav-item">
-                    <a className="nav-link" href="index.html">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="services.html">
-                      About Us
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="projects.html">
-                      Launch and Safety
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="projects.html">
-                      Vehicles
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="projects.html">
-                      Training and Recovery
-                    </a>
-                  </li>
-                </ul>
-                <a
-                  className="btn btn-primary shadow"
-                  role="button"
-                  href="signup.html"
+        <div className="container">
+            <a className="navbar-brand d-flex align-items-center" href="/">
+              <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                  className="bi bi-bezier"
                 >
-                  Book Now
-                </a>
-              </div>
+                  <path
+                    fillRule="evenodd"
+                    d="M0 10.5A1.5 1.5 0 0 1 1.5 9h1A1.5 1.5 0 0 1 4 10.5v1A1.5 1.5 0 0 1 2.5 13h-1A1.5 1.5 0 0 1 0 11.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zm10.5.5A1.5 1.5 0 0 1 13.5 9h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1zm1.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1zM6 4.5A1.5 1.5 0 0 1 7.5 3h1A1.5 1.5 0 0 1 10 4.5v1A1.5 1.5 0 0 1 8.5 7h-1A1.5 1.5 0 0 1 6 5.5v-1zM7.5 4a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1z"
+                  />
+                  <path d="M6 4.5H1.866a1 1 0 1 0 0 1h2.668A6.517 6.517 0 0 0 1.814 9H2.5c.123 0 .244.015.358.043a5.517 5.517 0 0 1 3.185-3.185A1.503 1.503 0 0 1 6 5.5v-1zm3.957 1.358A1.5 1.5 0 0 0 10 5.5v-1h4.134a1 1 0 1 1 0 1h-2.668a6.517 6.517 0 0 1 2.72 3.5H13.5c-.123 0-.243.015-.358.043a5.517 5.517 0 0 0-3.185-3.185z" />
+                </svg>
+              </span>
+              <span>EXO INFINITY</span>
+            </a>
+            <button
+              data-bs-toggle="collapse"
+              className="navbar-toggler"
+              data-bs-target="#navcol-1"
+            >
+              <span className="visually-hidden">Toggle navigation</span>
+              <span className="navbar-toggler-icon" />
+            </button>
+            <div className="collapse navbar-collapse" id="navcol-1">
+              <ul className="navbar-nav mx-auto">
+                <li className="nav-item">
+                  <a className="nav-link" href="/">
+                    Home
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/about">
+                    About Us
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/launch">
+                    Launch and Safety
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/vehicles">
+                    Vehicles
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a className="nav-link" href="/training">
+                    Training and Recovery
+                  </a>
+                </li>
+              </ul>
+              <a
+                className="btn btn-primary shadow"
+                role="button"
+                href="/tours"
+              >
+                Book Now
+              </a>
             </div>
+          </div>
           </nav>
-          <div className="container py-5">
+          <div className="container py-5" style={{backgroundColor: "var(--bs-black)"}}>
             <div className="row mb-5">
               <div className="col-md-8 col-xl-6 text-center mx-auto">
                 <h2 className="fw-bold">EXO Infinity Vehicles</h2>
@@ -113,423 +118,12 @@ class Vehicles extends React.Component {
             </div>
           </div>
         </section>
-        <div
-          className="carousel slide"
-          data-bs-ride="carousel"
-          id="carousel-1"
-          style={{
-            height: "600px"
-          }}
-        >
-          <div className="carousel-inner h-100">
-            <div className="carousel-item active h-100">
-              <img
-                className="w-100 d-block position-absolute h-100 fit-cover"
-                src="assets/img/falconheavy_sep.png"
-                alt="Slide Image"
-                style={{
-                  zIndex: -1
-                }}
-              />
-              <div className="container d-flex flex-column justify-content-center h-100">
-                <div className="row">
-                  <div className="col-md-6 col-lg-9 col-xl-4 offset-md-2">
-                    <div
-                      style={{
-                        maxWidth: "350px"
-                      }}
-                    >
-                      <h1 className="text-uppercase fw-bold">EXo Voyager</h1>
-                      <a
-                        className="btn btn-primary btn-lg me-2"
-                        role="button"
-                        href="#"
-                      >
-                        Button
-                      </a>
-                    </div>
-                    <p
-                      className="my-3"
-                      style={{
-                        fontSize: "14px"
-                      }}
-                    >
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Specifications:
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Height: 70 meters
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Width: 16 meters
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Mass: 2,500,000 kg (including payload)
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Payload to Low Earth Orbit (LEO): 80,000 kg
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Payload to Geostationary Transfer Orbit (GTO): 30,000
-                          kg
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          The rocket ship is powered by a novel propulsion
-                          system that uses a combination of fusion and
-                          antimatter reactions to generate thrust. This system
-                          provides a specific impulse of 10 million seconds,
-                          which is much higher than any currently available
-                          propulsion technology. With this propulsion system,
-                          the rocket ship is capable of traveling at a constant
-                          speed of 100 km/s, allowing it to reach Pluto within a
-                          few days.
-                        </span>
-                      </strong>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item h-100">
-              <img
-                className="w-100 d-block position-absolute h-100 fit-cover"
-                src="assets/img/fh_performance.jpg"
-                alt="Slide Image"
-                style={{
-                  zIndex: -1
-                }}
-              />
-              <div className="container d-flex flex-column justify-content-center h-100">
-                <div className="row">
-                  <div className="col-md-6 col-lg-9 col-xl-4 offset-md-2">
-                    <div
-                      style={{
-                        maxWidth: "350px"
-                      }}
-                    >
-                      <h1 className="text-uppercase fw-bold">EXo Nova</h1>
-                      <a
-                        className="btn btn-primary btn-lg me-2"
-                        role="button"
-                        href="#"
-                      >
-                        Button
-                      </a>
-                    </div>
-                    <p
-                      className="my-3"
-                      style={{
-                        fontSize: "14px"
-                      }}
-                    >
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Specifications:
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Height: 120 meters
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Width: 26 meters
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Mass: 6,000,000 kg (including payload)
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Payload to Low Earth Orbit (LEO): 200,000 kg
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Payload to Geostationary Transfer Orbit (GTO): 80,000
-                          kg
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          The rocket ship is powered by a novel propulsion
-                          system that uses a combination of fusion and
-                          antimatter reactions to generate thrust. This system
-                          provides a specific impulse of 10 million seconds,
-                          which is much higher than any currently available
-                          propulsion technology. With this propulsion system,
-                          the rocket ship is capable of traveling at a constant
-                          speed of 100 km/s, allowing it to reach Pluto within a
-                          few days.
-                        </span>
-                      </strong>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="carousel-item h-100">
-              <img
-                className="w-100 d-block position-absolute h-100 fit-cover"
-                src="assets/img/107182934-1674566336033-52621815136_50da618a63_k_1.jpg"
-                alt="Slide Image"
-                style={{
-                  zIndex: -1
-                }}
-              />
-              <div className="container d-flex flex-column justify-content-center h-100">
-                <div className="row">
-                  <div className="col-md-6 col-lg-9 col-xl-4 offset-md-2">
-                    <div
-                      style={{
-                        maxWidth: "350px"
-                      }}
-                    >
-                      <h1 className="text-uppercase fw-bold">
-                        <span
-                          style={{
-                            color: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          EXo Swift
-                        </span>
-                      </h1>
-                      <a
-                        className="btn btn-primary btn-lg me-2"
-                        role="button"
-                        href="#"
-                      >
-                        Button
-                      </a>
-                    </div>
-                    <p
-                      className="my-3"
-                      style={{
-                        fontSize: "14px"
-                      }}
-                    >
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Specifications:
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Height: 50 meters
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Width: 20 meters
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Mass: 5,000,000 kg (including fuel)
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Payload to LEO: 100,000 kg
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          Payload to GTO: 50,000 kg
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          To achieve a speed close to the speed of light, Exo
-                          Infinity's Exo Swift has a powerful propulsion system
-                          with a fusion engine. This ship is only limited to
-                          those who want to voyage on the Centauri Tours.{" "}
-                        </span>
-                      </strong>
-                      <br />
-                      <strong>
-                        <span
-                          style={{
-                            backgroundColor: "rgb(0, 0, 0)"
-                          }}
-                        >
-                          The rocket ship can travel at 0.9 times the speed of
-                          light and would take approximately 4.4 years to reach
-                          Alpha Centauri, which is 4.37 light-years away.
-                          However, time would be experienced differently on the
-                          rocket ship due to time dilation, so the passengers
-                          and crew would experience less time than someone on
-                          Earth. For example, if the trip took 4.4 years from
-                          Earth's perspective, it could feel like a few weeks to
-                          the passengers and crew on the rocket ship, which is
-                          why partaking in the Centauri Tours on the Exo Swift
-                          is a once in a lifetime experience.
-                        </span>
-                      </strong>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <a
-              className="carousel-control-prev"
-              href="#carousel-1"
-              role="button"
-              data-bs-slide="prev"
-            >
-              <span className="carousel-control-prev-icon" />
-              <span className="visually-hidden">Previous</span>
-            </a>
-            <a
-              className="carousel-control-next"
-              href="#carousel-1"
-              role="button"
-              data-bs-slide="next"
-            >
-              <span className="carousel-control-next-icon" />
-              <span className="visually-hidden">Next</span>
-            </a>
-          </div>
-          <ol className="carousel-indicators">
-            <li
-              data-bs-target="#carousel-1"
-              data-bs-slide-to={0}
-              className="active"
-            />
-            <li data-bs-target="#carousel-1" data-bs-slide-to={1} />
-            <li data-bs-target="#carousel-1" data-bs-slide-to={2} />
-          </ol>
-        </div>
-        <section className="py-4 py-xl-5">
+        <section className="py-4 py-xl-5" style={{backgroundColor: "var(--bs-black)"}}>
           <div className="container">
             <div className="bg-dark border rounded border-0 border-dark overflow-hidden">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-12">
                   <div className="text-white p-4 p-md-5">
-                    <img
-                      className="w-100 h-100 fit-cover"
-                      src="assets/img/Screenshot%202023-02-17%20at%2010.28.24%20PM.png"
-                    />
                     <h2
                       className="fw-bold text-white mb-3"
                       style={{

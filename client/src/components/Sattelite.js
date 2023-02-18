@@ -14,7 +14,7 @@ class Sattelite extends React.Component {
             fontSize: "14.5px"
           }}
         >
-          <div className="container">
+        <div className="container">
             <a className="navbar-brand d-flex align-items-center" href="/">
               <span className="bs-icon-sm bs-icon-circle bs-icon-primary shadow d-flex justify-content-center align-items-center me-2 bs-icon">
                 <svg
@@ -45,27 +45,27 @@ class Sattelite extends React.Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link" href="index.html">
+                  <a className="nav-link" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="services.html">
+                  <a className="nav-link" href="/about">
                     About Us
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/launch">
                     Launch and Safety
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/vehicles">
                     Vehicles
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="projects.html">
+                  <a className="nav-link" href="/training">
                     Training and Recovery
                   </a>
                 </li>
@@ -73,7 +73,7 @@ class Sattelite extends React.Component {
               <a
                 className="btn btn-primary shadow"
                 role="button"
-                href="signup.html"
+                href="/tours"
               >
                 Book Now
               </a>
@@ -85,7 +85,6 @@ class Sattelite extends React.Component {
             <div className="bg-dark border rounded border-0 border-dark overflow-hidden">
               <div className="row g-0">
                 <div className="col-md-6 col-lg-12">
-                  <img src="assets/img/image.jpeg" />
                 </div>
               </div>
             </div>
@@ -108,12 +107,13 @@ class Sattelite extends React.Component {
                   want to miss, so book your satellite tour today and experience
                   the thrill of space travel!
                 </p>
-                <button
+                <a
                   className="btn btn-primary fs-5 me-2 py-2 px-4"
                   type="button"
+                  href="/contact"
                 >
-                  Book now
-                </button>
+                  Contact Us To Book Now
+                </a>
               </div>
             </div>
           </div>
@@ -214,12 +214,13 @@ class Sattelite extends React.Component {
                       <br />
                       <strong>Price: $200,000</strong>
                     </p>
-                    <button
-                      className="btn btn-light fs-5 py-2 px-4"
-                      type="button"
-                    >
-                      Book now
-                    </button>
+                    <a
+                  className="btn btn-light fs-5 me-2 py-2 px-4"
+                  type="button"
+                  href="/contact"
+                >
+                  Contact Us To Book Now
+                </a>
                   </div>
                 </div>
               </div>
