@@ -122,7 +122,7 @@ class Index_Final extends React.Component {
             <div className="row d-flex justify-content-center">
               <div className="col-md-6 col-xl-4">
                 <div>
-                  <form className="p-3 p-xl-4" method="post">
+                  <form className="p-3 p-xl-4">
                     <div className="mb-3">
                       <input
                         className="form-control"
@@ -156,7 +156,7 @@ class Index_Final extends React.Component {
                         className="btn btn-primary shadow d-block w-100"
                         type="submit"
                       >
-                        Send{" "}
+                        Send
                       </button>
                     </div>
                   </form>

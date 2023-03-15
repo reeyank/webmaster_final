@@ -99,10 +99,6 @@ class Tours extends React.Component {
               }}
             >
               <div className="col mb-5">
-                <img
-                  className="rounded img-fluid shadow"
-                  src="../assets/img/products/istockphoto-482954331-612x612.jpg"
-                />
               </div>
               <div
                 className="col d-md-flex align-items-md-end align-items-lg-center mb-5"
@@ -159,10 +155,6 @@ class Tours extends React.Component {
               }}
             >
               <div className="col order-md-last mb-5">
-                <img
-                  className="rounded img-fluid shadow"
-                  src="assets/img/products/EmvV4u1UcAAnvjg.jpeg"
-                />
               </div>
               <div
                 className="col d-md-flex align-items-md-end align-items-lg-center mb-5"

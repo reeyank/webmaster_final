@@ -1,11 +1,13 @@
 import React from "react";
 import "../assets/bootstrap/css/bootstrap.min.css";
+import "../assets/bootstrap/js/bootstrap.min.js";
 import "../assets/css/extra.css";
 import "../assets/css/styles.min.css";
 
 class About extends React.Component {
   render() {
     return (
+      <>
       <div style={{backgroundColor: "var(--bs-black)"}}>
         <nav
           className="navbar navbar-dark navbar-expand-md sticky-top py-3"
@@ -352,7 +354,7 @@ class About extends React.Component {
             <div className="row d-flex justify-content-center">
               <div className="col-md-6 col-xl-4">
                 <div>
-                  <form className="p-3 p-xl-4" method="post">
+                  <form className="p-3 p-xl-4">
                     <div className="mb-3">
                       <input
                         className="form-control"
@@ -438,6 +440,7 @@ class About extends React.Component {
           </div>
         </section>
       </div>
+      </>
     );
   }
 }

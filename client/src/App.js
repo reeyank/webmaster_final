@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
  
 // We use Route in order to define the different routes of our application
 import { Route, Routes } from "react-router-dom";
@@ -18,6 +19,11 @@ import Vehicles from "./components/Vehicles";
  
 const App = () => {
  return (
+  <>
+   <Helmet>
+    <title>GSMST WEBMASTER</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   </Helmet>
    <div>
      <Routes>
        <Route exact path="/" element={<Index_Final />} />
@@ -34,6 +40,7 @@ const App = () => {
 
      </Routes>
    </div>
+   </>
  );
 };
  
